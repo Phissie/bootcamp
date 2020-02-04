@@ -1,38 +1,58 @@
 .App {
+  /* background-image: url("portfoilio.jpg"); */
   text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bird {
+  margin-top: -136px;
+}
+.About-Me {
+  background-color: pink;
+  font-family: "Caveat", cursive;
+}
+.background-image {
+  max-height: 800px;
+}
+.heading {
+  animation: rainbow 7s infinite;
+  
+}
+
+@keyframes rainbow {
+  
+  0% {
+    color: purple;
+  }
+  25% {
+    color: palevioletred;
+  }
+  50% {
+    color: orangered;
+  }
+  75% {
+    color: pink;
+  }
+  100% {
+    color: goldenrod;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+/* @keyframes rainbow {
   from {
-    transform: rotate(0deg);
+    color: purple;
   }
   to {
-    transform: rotate(360deg);
+    color: palevioletred;
   }
-}
+} */
