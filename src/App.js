@@ -1,6 +1,6 @@
 import React from "react";
 // import logo from "./logo.svg";
-import About from "./pages/About.js";
+import About from "./pages/Home/HomePage";
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import githublogo from "./";

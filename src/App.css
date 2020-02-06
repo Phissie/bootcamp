@@ -30,6 +30,7 @@
 .background-image {
   max-height: 800px;
   border-radius: 80px;
+  width: 400px;
 }
 .heading {
   animation: rainbow 7s infinite;
