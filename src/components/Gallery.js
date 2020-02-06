@@ -1,7 +1,7 @@
 import React from "react";
-import linkedin from "../fisayolinkedinlogo.svg";
-import githublogo from "../githublogo.gif";
-import Gmail from "../Gmail-512.png";
+import linkedin from "../images/fisayolinkedinlogo.svg";
+import githublogo from "../images/githublogo.gif";
+import Gmail from "../images/Gmail-512.png";
 import "./Gallery.css";
 
 export default function Gallery() {
@@ -16,7 +16,7 @@ export default function Gallery() {
       </a>
 
       <a href="mailto:phisayour@gmail.com">
-        <img src={Gmail} />
+        <img src={Gmail} alt="gmail" />
       </a>
     </div>
   );
