@@ -34,18 +34,18 @@ export default function HomePage() {
         {/* <img align="middle" /> */}
         <div className="techStack-container">
           <div className="techStack-item">
-            <img src={javascript} alt="javaScript.svg" className="techStack-item" />
+            <img src={javascript} alt="javaScript.svg" className="techStack-language" />
           </div>
           <div className="techStack-item">
-            <img src={nodejs} alt="nodejs.svg" className="techStack-item" />
+            <img src={nodejs} alt="nodejs.svg" className="techStack-language" />
           </div>
           <div className="techStack-item">
-            <img src={ruby} alt="ruby.svg" className="techStack-item"/>
+            <img src={ruby} alt="ruby.svg" className="techStack-language"/>
           </div>
           <div className="techStack-item">
-            <img src={c_sharp} alt="C_Sharp_logo.png" className="techStack-item" />
+            <img src={c_sharp} alt="C_Sharp_logo.png" className="techStack-language" />
           </div>
-          <div className="techStack-item">
+          <div className="techStack-language">
             <i className="fab fa-react react-logo"></i>
           </div>
         </div>

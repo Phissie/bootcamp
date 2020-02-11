@@ -85,6 +85,7 @@
 }
 
 .react-logo {
+  padding-top: 4px;
   font-size: 60px;
   color: lightskyblue;
 }
@@ -92,9 +93,15 @@
 .techStack-container {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
 }
 
-.techStack-item {
+.techStack-language {
   width: 60px;
   
+}
+.techStack-item {
+  display: flex;
+  align-items: center;
 }
