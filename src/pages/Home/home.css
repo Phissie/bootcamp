@@ -85,7 +85,7 @@
 }
 
 .react-logo {
-  font-size: 100px;
+  font-size: 60px;
   color: lightskyblue;
 }
 
@@ -95,5 +95,6 @@
 }
 
 .techStack-item {
-  width: 100px;
+  width: 60px;
+  
 }
