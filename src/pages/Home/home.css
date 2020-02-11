@@ -12,7 +12,17 @@
   animation: rainbow 7s infinite;
   font-size: 30px;
   font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
 }
+
+.mylogoname {
+  font-size: 18px;
+  position: absolute;
+  top: 140px;
+}
+
 .pictureDescription {
   font-family: "Caveat";
   font-size: 40px;
@@ -42,6 +52,7 @@
   max-width: 600px;
   margin: auto;
 }
+
 /* 
   .About-Me-Text {
     font-size: 18px;

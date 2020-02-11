@@ -13,8 +13,8 @@ export default function HomePage() {
     <div>
       <div className="heading">
         <img className="logo" src={logo} width="150" />
-        <p>Hello World I'm Fisayo! Welcome to my page</p>
-      </div>{" "}
+        <p className="mylogoname">FISAYO FAGADE</p>
+      </div>
       <a
         href="https://www.linkedin.com/in/fisayofagade"
         target="_blank"
