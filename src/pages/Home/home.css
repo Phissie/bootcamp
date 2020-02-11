@@ -53,6 +53,26 @@
   max-width: 600px;
   margin: auto;
 }
+@media only screen and (max-width: 360px)
+{
+  .heading {
+    animation: rainbow 7s infinite;
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  .mylogoname {
+    font-size: 10px;
+    position: absolute;
+    top: 73px;
+    left: 20px;
+  }
+  .heading img {
+   width:90px
+  }
+}
 
 /* 
   .About-Me-Text {

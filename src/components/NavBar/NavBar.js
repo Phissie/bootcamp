@@ -35,10 +35,10 @@ const Example = props => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
+            <NavItem className="navButton">
               <Link to="/">Home</Link>
             </NavItem>
-            <NavItem>
+            <NavItem className="navButton">
               <Link to="/about">My Story So Far</Link>
             </NavItem>
             {/* <NavItem>
@@ -47,7 +47,7 @@ const Example = props => {
               </NavLink>
             </NavItem> */}
           </Nav>
-          <NavbarText>HELLO WORLD! WELCOME TO MY PAGE.</NavbarText>
+          <NavbarText className="welcome">HELLO WORLD! WELCOME TO MY PAGE.</NavbarText>
         </Collapse>
       </Navbar>
     </div>
