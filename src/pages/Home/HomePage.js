@@ -5,8 +5,7 @@ import ruby from "../../images/ruby.svg";
 import javascript from "../../images/javascript.svg";
 import Gallery from "../../components/Gallery.js";
 import pic from "../../images/professionalpicture.jpeg";
-import logo from "../../images/fisayofagadelogo.png";
-import reactLogo from "../../images/logo.svg";
+import logo from "../../images/fisayoweblogo.png";
 import "./home.css";
 
 export default function HomePage() {
@@ -24,14 +23,13 @@ export default function HomePage() {
         <img src={pic} className="background-image" alt="professionalpicture" />
       </a>
       <div className="pictureDescription">
-        Fisayo Fagade <li>Full Stack Developer based in West London</li>
+        Fisayo Fagade <ul>Full Stack Developer based in West London</ul>
         <Gallery />
         <div className="About-Me">
           <div className="Inner-Wrapper">
             <h2>MY TECH STACK</h2>
           </div>
         </div>
-        {/* <div className="logo"> */}
         {/* <img align="middle" /> */}
         <div className="techStack-container">
           <div className="techStack-item">
@@ -50,7 +48,6 @@ export default function HomePage() {
             <i className="fab fa-react react-logo"></i>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
