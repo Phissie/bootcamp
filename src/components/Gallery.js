@@ -3,7 +3,6 @@ import linkedin from "../images/fisayolinkedinlogo.svg";
 import githublogo from "../images/githublogo.gif";
 import Gmail from "../images/Gmail-512.png";
 import "./Gallery.css";
-import logo from "../images/fisayoweblogo.png";
 
 export default function Gallery() {
   return (

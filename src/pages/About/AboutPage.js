@@ -1,5 +1,5 @@
 import React from "react";
-import bird from "../../images/completed-bird-eating.gif";
+// import bird from "../../images/completed-bird-eating.gif";
 import weblogo from "../../images/fisayoweblogo.png";
 import pic from "../../images/professionalpicture.jpeg";
 import "./about.css";

@@ -32,6 +32,11 @@
 .linkedinContainer {
   display: flex;
   justify-content: center;
+
+}
+.bird-portrait img{
+border-radius: 50%;
+
 }
 
 .MySocialMedia {
@@ -72,7 +77,10 @@
   .heading img {
    width:90px
   }
+  
 }
+
+
 
 /* 
   .About-Me-Text {

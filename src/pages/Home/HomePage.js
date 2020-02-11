@@ -5,7 +5,6 @@ import ruby from "../../images/ruby.svg";
 import javascript from "../../images/javascript.svg";
 import Gallery from "../../components/Gallery.js";
 import bird from "../../images/completed-bird-eating.gif";
-import logo from "../../images/fisayoweblogo.png";
 import "./home.css";
 
 export default function HomePage() {
@@ -15,13 +14,13 @@ export default function HomePage() {
         <img src={logo} alt="logo" width="200" />
         <p className="mylogoname">FISAYO FAGADE</p>
       </div> */}
-      <a
+      {/* <a
         href="https://www.linkedin.com/in/fisayofagade"
         target="_blank"
         rel="noopener noreferrer"
-      />
-      <div>
-        <img src={bird}></img>
+      /> */}
+      <div className="bird-portrait">
+        <img src={bird}alt="bird"/>
       </div>
       <div className="pictureDescription">
         Fisayo Fagade <ul>Full Stack Developer based in West London</ul>
