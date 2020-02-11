@@ -2,12 +2,12 @@ import React from "react";
 import c_sharp from "../../images/C_Sharp_logo.png";
 import nodejs from "../../images/nodejs.svg";
 import ruby from "../../images/ruby.svg";
-// import reactLogo from "../images/React.png";
 import javascript from "../../images/javascript.svg";
 import Gallery from "../../components/Gallery.js";
 import pic from "../../images/professionalpicture.jpeg";
-// import "./Home"/home.css";
 import logo from "../../images/fisayofagadelogo.png";
+import reactLogo from "../../images/logo.svg";
+import "./home.css";
 
 export default function HomePage() {
   return (
@@ -24,47 +24,33 @@ export default function HomePage() {
         <img src={pic} className="background-image" alt="professionalpicture" />
       </a>
       <div className="pictureDescription">
-        Fisayo Fagade <li>Full Stack Developer</li>
+        Fisayo Fagade <li>Full Stack Developer based in West London</li>
         <Gallery />
         <div className="About-Me">
           <div className="Inner-Wrapper">
             <h2>MY TECH STACK</h2>
           </div>
         </div>
-        <div className="logo">
-          <img src={javascript} alt="javaScript.svg" width="120" height="120" />
-          {/* <img align="middle" /> */}
-          <div classname="overlay"></div>
-
-          <div classname="overlay"></div>
-          <img
-            src={nodejs}
-            alt="nodejs.svg"
-            width="120"
-            height="120"
-            align="middle"
-          />
-          <div classname="overlay"></div>
-          <img
-            src={ruby}
-            alt="ruby.svg"
-            width="120"
-            height="120"
-            align="middle"
-          />
-          <div classname="overlay"></div>
-          <img
-            src={c_sharp}
-            alt="C_Sharp_logo.png"
-            width="120"
-            height="120"
-            align="middle"
-          />
-
-          <div className="overlay"></div>
-          <div className="text"></div>
-          <i class="fab fa-react react-logo"></i>
+        {/* <div className="logo"> */}
+        {/* <img align="middle" /> */}
+        <div className="techStack-container">
+          <div className="techStack-item">
+            <img src={javascript} alt="javaScript.svg" />
+          </div>
+          <div className="techStack-item">
+            <img src={nodejs} alt="nodejs.svg" className="techStack-item" />
+          </div>
+          <div className="techStack-item">
+            <img src={ruby} alt="ruby.svg" />
+          </div>
+          <div className="techStack-item">
+            <img src={c_sharp} alt="C_Sharp_logo.png" />
+          </div>
+          <div className="techStack-item">
+            <i className="fab fa-react react-logo"></i>
+          </div>
         </div>
+        {/* </div> */}
       </div>
     </div>
   );
