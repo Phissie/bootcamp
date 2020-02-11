@@ -67,6 +67,10 @@ border-radius: 50%;
     justify-content: flex-start;
     margin-bottom: 30px;
   }
+
+  .bird-portrait img {
+    width: 300px;
+  }
   
   .mylogoname {
     font-size: 10px;

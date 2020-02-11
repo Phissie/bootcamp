@@ -47,7 +47,7 @@ const Example = props => {
               </NavLink>
             </NavItem> */}
           </Nav>
-          <NavbarText className="welcome">HELLO WORLD! WELCOME TO MY PAGE.</NavbarText>
+          <NavbarText className="welcome">🦋BIENVENUE! I'M FISAYO! WELCOME TO MY SITE🦋</NavbarText>
         </Collapse>
       </Navbar>
     </div>
