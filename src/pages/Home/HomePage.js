@@ -4,24 +4,25 @@ import nodejs from "../../images/nodejs.svg";
 import ruby from "../../images/ruby.svg";
 import javascript from "../../images/javascript.svg";
 import Gallery from "../../components/Gallery.js";
-import pic from "../../images/professionalpicture.jpeg";
+import bird from "../../images/completed-bird-eating.gif";
 import logo from "../../images/fisayoweblogo.png";
 import "./home.css";
 
 export default function HomePage() {
   return (
     <div>
-      <div className="heading">
-        <img className="logo" src={logo} width="150" />
+      {/* <div className="heading">
+        <img src={logo} alt="logo" width="200" />
         <p className="mylogoname">FISAYO FAGADE</p>
-      </div>
+      </div> */}
       <a
         href="https://www.linkedin.com/in/fisayofagade"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        <img src={pic} className="background-image" alt="professionalpicture" />
-      </a>
+      />
+      <div>
+        <img src={bird}></img>
+      </div>
       <div className="pictureDescription">
         Fisayo Fagade <ul>Full Stack Developer based in West London</ul>
         <Gallery />

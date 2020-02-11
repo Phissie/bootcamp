@@ -5,6 +5,7 @@ import About from "./pages/About/AboutPage";
 import NavBar from "./components/NavBar/NavBar";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import githublogo from "./";
 
@@ -15,8 +16,8 @@ function App() {
     <div className="App">
       <Router>
         <NavBar />
-        <Route to="/" component={Home} />
-        {/* <Route to="/about" component={About} /> */}
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
       </Router>
     </div>
   );
