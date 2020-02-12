@@ -32,11 +32,10 @@
 .linkedinContainer {
   display: flex;
   justify-content: center;
-
 }
-.bird-portrait img{
-border-radius: 50%;
-
+.bird-portrait img {
+  border-radius: 50%;
+  width: 65%;
 }
 
 .MySocialMedia {
@@ -58,8 +57,8 @@ border-radius: 50%;
   max-width: 600px;
   margin: auto;
 }
-@media only screen and (max-width: 360px)
-{
+
+@media only screen and (max-width: 300px) {
   .heading {
     animation: rainbow 7s infinite;
     font-family: "Rubik", sans-serif;
@@ -68,10 +67,10 @@ border-radius: 50%;
     margin-bottom: 30px;
   }
 
-  .bird-portrait img {
-    width: 300px;
+  .bird-portrait-img {
+    width: 10px;
   }
-  
+
   .mylogoname {
     font-size: 10px;
     position: absolute;
@@ -79,12 +78,9 @@ border-radius: 50%;
     left: 20px;
   }
   .heading img {
-   width:90px
+    width: 90px;
   }
-  
 }
-
-
 
 /* 
   .About-Me-Text {
@@ -131,7 +127,6 @@ border-radius: 50%;
 
 .techStack-language {
   width: 60px;
-  
 }
 .techStack-item {
   display: flex;

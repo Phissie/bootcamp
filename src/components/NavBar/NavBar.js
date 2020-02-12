@@ -1,4 +1,4 @@
-import "./navbar.css"
+import "./navbar.css";
 import logo from "../../images/fisayoweblogo.png";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
@@ -47,7 +47,15 @@ const Example = props => {
               </NavLink>
             </NavItem> */}
           </Nav>
-          <NavbarText className="welcome">🦋BIENVENUE! I'M FISAYO! WELCOME TO MY SITE🦋</NavbarText>
+          <NavbarText className="welcome">
+            <span role="img" aria-label="img">
+              🦋
+            </span>
+            BIENVENUE! I'M FISAYO! WELCOME TO MY SITE
+            <span role="img" aria-label="img">
+              🦋
+            </span>
+          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
