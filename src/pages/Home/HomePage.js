@@ -4,7 +4,7 @@ import nodejs from "../../images/nodejs.svg";
 import ruby from "../../images/ruby.svg";
 import javascript from "../../images/javascript.svg";
 import Gallery from "../../components/Gallery.js";
-import bird from "../../images/completed-bird-eating.gif";
+import nature from "../../images/your-stupid-face.gif";
 import "./home.css";
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
         rel="noopener noreferrer"
       /> */}
       <div className="bird-portrait">
-        <img src={bird}alt="bird"/>
+        <img src={nature}alt="bird"/>
       </div>
       <div className="pictureDescription">
         Fisayo Fagade <ul>Full Stack Developer based in West London</ul>
