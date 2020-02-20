@@ -36,6 +36,7 @@
 .bird-portrait img {
   border-radius: 50%;
   width: 75%;
+  margin-top: 200px;
 }
 
 .MySocialMedia {
@@ -127,4 +128,7 @@
 .techStack-item {
   display: flex;
   align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  
 }

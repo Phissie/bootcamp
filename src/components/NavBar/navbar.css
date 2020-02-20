@@ -4,4 +4,10 @@
 }
 .navButton {
     padding: 25px;
+    
+}
+.navbar.default {
+    z-index: 1000;
+    position: fixed;
+    width:100%
 }

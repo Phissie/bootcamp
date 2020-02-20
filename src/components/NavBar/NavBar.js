@@ -24,7 +24,7 @@ const Example = props => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar className = 'navbar default'color="light" light expand="md">
         <NavbarBrand href="/">
           {" "}
           <div className="heading">
