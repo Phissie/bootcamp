@@ -1,7 +1,11 @@
 .mystorytext {
+  margin-top: 200px;
   background-color: rgb(229, 253, 253);
   width: 75%;
   margin: auto;
   line-height: 30px;
   letter-spacing: 2px;
+}
+.aboutpagepic {
+  margin-top: 200px;
 }
