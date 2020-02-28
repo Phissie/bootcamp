@@ -24,11 +24,11 @@ const Example = props => {
 
   return (
     <div>
-      <Navbar className = 'navbar default'color="light" light expand="md">
+      <Navbar className="navbar default" color="light" light expand="md">
         <NavbarBrand href="/">
           {" "}
           <div className="heading">
-            <img src={logo} alt="logo" width="200" />
+            <img src={logo} alt="logo" width="150" height="100" />
             <p className="mylogoname">FISAYO FAGADE</p>
           </div>
         </NavbarBrand>
